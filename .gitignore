@@ -1,1 +1,30 @@
-node_modules
+# Arquivos de compilação
+*.o
+*.out
+
+# Arquivos de backup
+*~
+
+# Arquivos de log
+*.log
+
+# Diretórios
+bin/
+build/
+dist/
+
+# Arquivos específicos
+config.ini
+secrets.txt
+
+# Arquivos gerados por IDEs
+.idea/
+.vscode/
+
+# Dependências
+node_modules/
+vendor/
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
