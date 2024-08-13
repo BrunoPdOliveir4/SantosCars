@@ -1,0 +1,38 @@
+.menu-mobile {
+    border: none;
+    rotate: 180deg;
+}
+
+.menu-btn__burger {
+	width: 2.5em;
+	height: .3em;
+	background: #1f1f1f;
+	border-radius: 5px;
+	transition: .5s;
+}
+.menu-btn__burger::before, .menu-btn__burger::after {
+	content: '';
+	background: #1f1f1f;
+	position: absolute;
+	width: 2.5em;
+	height: .35em;
+	border-radius: 5px;
+    translate: -20px;
+	transition: .5s;
+}
+.menu-btn__burger::before {
+	transform: translateY(-12px);
+}
+.menu-btn__burger::after {
+	transform: translateY(12px);
+}
+.menu-mobile.open .menu-btn__burger {
+	transform: translateX(-50px);
+	background: transparent;
+}
+.menu-mobile.open .menu-btn__burger::before {
+	transform: rotate(45deg) translate(35px, -35px);
+}
+.menu-mobile.open .menu-btn__burger::after {
+	transform: rotate(-45deg) translate(35px, 35px);
+}

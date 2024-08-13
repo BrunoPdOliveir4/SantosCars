@@ -1,0 +1,45 @@
+{
+    "values": [ 
+    {
+        "id": 0,
+        "model": "Abcd",
+        "brand": "BMW",
+        "price": 1000,
+        "doors": 3,
+        "passangers" : 4
+    },
+    {
+        "id": 1,
+        "model": "def",
+        "brand": "Ford",
+        "price": 432,
+        "doors": 3,
+        "passangers" : 4
+    },
+    {
+        "id": 2,
+        "model": "Abc",
+        "brand": "Chevrolet",
+        "price": 560,
+        "doors": 3,
+        "passangers" : 4
+    },
+    {
+        "id": 3,
+        "model": "gi",
+        "brand": "Mercedes",
+        "price": 1200,
+        "doors": 3,
+        "passangers" : 4
+    },
+    {
+        "id": 4,
+        "model": "ferrari",
+        "brand": "Audi",
+        "price": 1100,
+        "doors": 3,
+        "passangers" : 4
+        
+    }
+]
+}
